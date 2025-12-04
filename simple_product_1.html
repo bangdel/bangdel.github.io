@@ -13,7 +13,9 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1327511138561751');
-fbq('track', 'PageView');
+fbq('track', 'PageView', {
+  content_ids: ['created_from_smart_pixel'],
+});
 fbq('track', 'ViewContent', {
   content_ids: ['created_from_smart_pixel'],
 });	
