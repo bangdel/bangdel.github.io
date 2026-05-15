@@ -13,7 +13,7 @@
 			s.parentNode.insertBefore(t,s)}(window, document,'script',
 			'https://connect.facebook.net/en_US/fbevents.js');
 			fbq('init', '1327511138561751');
-			fbq('track', 'PageView');
+			fbq('track', 'PageView', {}, {eventID: 'this_is_an_event_id'});
 			fbq('track', 'ViewContent', {
 			  content_type: 'product',
 			  content_name: 'simple product',
